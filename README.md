@@ -1,6 +1,8 @@
 # language-speed-test
 compare the speeds of programming languages by computing the answer to https://projecteuler.net/problem=12
 
+the programs include increment, decrement, divide, square root, comparators, and casting between `int` and `float`
+
 1. C (0.19s)
 2. Rust (1.58s)
 
