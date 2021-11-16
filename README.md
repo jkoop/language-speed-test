@@ -4,7 +4,8 @@ compare the speeds of programming languages by computing the answer to https://p
 the programs include increment, decrement, divide, square root, comparators, and casting between `int` and `float`
 
 1. C (0.19s)
-2. Rust (1.58s)
+2. PHP 8.0 (1.00s)
+3. Rust (1.58s)
 
 ## C (0.19s)
 ```txt
@@ -12,6 +13,13 @@ the programs include increment, decrement, divide, square root, comparators, and
 > date +%S.%N; ./c > /dev/null; date +%S.%N
 52.282206335
 52.470491317
+```
+
+## PHP 8.0 (1.00s)
+```txt
+> date +%S.%N; php8.0 php.php > /dev/null; date +%S.%N
+39.818874753
+40.818272272
 ```
 
 ## Rust (1.58s)
